@@ -35,7 +35,7 @@ These examples use RDFa 1.1 profile prefix mapping. Note that the profile URI wi
      bacteria Bacillus subtilis</span>
   <span property="volume">42</span>
   <span property="issue">4</span>
-  <span property="pageStart">388</span>-<span property="bibo:pageEnd">391</span>
+  <span property="pageStart">388</span>-<span property="pageEnd">391</span>
   <span property="doi">10.1134/S0003683806040089</span>
 </div>
 ```
