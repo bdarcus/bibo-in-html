@@ -1,10 +1,13 @@
 
-body { margin:auto; position: center; width: 600px; font-family: sans;}
+body { margin:auto; position: center; width: 670px; font-family: sans; text-align: center; }
 h1 { font-size: 20px; }
 h2{ font-size: 14px; }
 
-table { margin-left:auto; margin-right:auto; }
+section.map { margin: 3em; box-shadow: 5px 5px 5px #888; padding: 2em; border: 1px solid lightgray; border-radius: 5px; }
+
+table { margin-left:auto; margin-right:auto; width: 100%; }
 td { padding: 1em; font-size: 12px; font-weight: bold; }
 tr.odd { background-color: #E0E0E0; }
 tr.even { background-color: #FFFF99; }
+td { text-align: left; }
 td.term { text-align:right; }
