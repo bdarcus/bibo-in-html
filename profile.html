@@ -1,4 +1,6 @@
-<html>
+<!DOCTYPE html>
+<html version="HTML+RDFa 1.1" lang="en"
+      xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>BIBO Profile</title>
     <link rel="stylesheet" href="css/screen.css" type="text/css"/> 
@@ -44,38 +46,42 @@
     <div class="map">
       <h2>Contributors</h2>
  
-      <ul>
-        <li typeof="rdfa:TermMapping">
-          <span property="rdfa:term">creator</span> :
-          <span property="rdfa:uri">http://purl.org/dc/terms/creator</span>
-        </li>
-        <li typeof="rdfa:TermMapping">
-          <span property="rdfa:term">publisher</span> :
-          <span property="rdfa:uri">http://purl.org/dc/terms/publisher</span>
-        </li>
-        <li typeof="rdfa:TermMapping">
-          <span property="rdfa:term">editor</span> :
-          <span property="rdfa:uri">http://purl.org/ontology/bibo/editor</span>
-        </li>
-      </ul>
+      <table>
+        <tr typeof="rdfa:TermMapping" class="odd">
+          <td property="rdfa:term">creator</td>
+          <td property="rdfa:uri">http://purl.org/dc/terms/creator</td>
+        </tr>
+        <tr typeof="rdfa:TermMapping" class="even">
+          <td property="rdfa:term">publisher</td>
+          <td property="rdfa:uri">http://purl.org/dc/terms/publisher</td>
+        </tr>
+        <tr typeof="rdfa:TermMapping" class="odd">
+          <td property="rdfa:term">editor</td>
+          <td property="rdfa:uri">http://purl.org/ontology/bibo/editor</td>
+        </tr>
+      </table>
     </div>
 
     <div class="map">
       <h2>Classes</h2>
-      <ul>
-        <li typeof="rdfa:TermMapping">
-          <span property="rdfa:term">Article</span> :
-          <span property="rdfa:uri">http://purl.org/ontology/bibo/Article</span>
-        </li>
-        <li typeof="rdfa:TermMapping">
-          <span property="rdfa:term">AcademicArticle</span> :
-          <span property="rdfa:uri">http://purl.org/ontology/bibo/AcademicArticle</span>
-        </li>
-        <li typeof="rdfa:TermMapping">
-          <span property="rdfa:term">Book</span> :
-          <span property="rdfa:uri">http://purl.org/ontology/bibo/Book</span>
-        </li>
-     </ul>
+      <table>
+        <tr typeof="rdfa:TermMapping" class="odd">
+          <td property="rdfa:term">Article</td>
+          <td property="rdfa:uri">http://purl.org/ontology/bibo/Article</td>
+        </tr>
+        <tr typeof="rdfa:TermMapping" class="even">
+          <td property="rdfa:term">AcademicArticle</td>
+          <td property="rdfa:uri">http://purl.org/ontology/bibo/AcademicArticle</td>
+        </tr>
+        <tr typeof="rdfa:TermMapping" class="odd">
+          <td property="rdfa:term">Book</td>
+          <td property="rdfa:uri">http://purl.org/ontology/bibo/Book</td>
+        </tr>
+        <tr typeof="rdfa:TermMapping" class="even">
+          <td property="rdfa:term">BookSection</td>
+          <td property="rdfa:uri">http://purl.org/ontology/bibo/BookSection</td>
+        </tr>
+     </table>
    </div>
   </body>
 </html>
