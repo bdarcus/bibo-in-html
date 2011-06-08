@@ -4,12 +4,11 @@ This page includes some examples of the BIBO RDF vocabulary embedded in HTML mar
 
 # Profile Attribute
 
-These examples use RDFa 1.1 profile prefix mapping. Note that the profile URI will change:
+These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profile URI will change:
 
 ```html
 <!DOCTYPE html>
-<html version="HTML+RDFa 1.1" lang="en"
-xmlns="http://www.w3.org/1999/xhtml">
+<html version="HTML+RDFa 1.1" lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Example Document</title>
   </head>
