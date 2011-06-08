@@ -7,13 +7,19 @@ This page includes some examples of the BIBO RDF vocabulary embedded in HTML mar
 ## Scholarly Article
 
 ```html
-<div class="reference" about="http://example.org/1" typeOf="bibo:AcademicArticle">
-  <span property="dc:issued"></span>
-  <span property="dc:title"></span>
-  <span property="bibo:volume"></span>
-  <span property="bibo:issue"></span>
-  <span property="bibo:pages"></span>
-  <span property="bibo:doi"></span>
+<div class="reference" about="http://dx.doi.org/10.1134/S0003683806040089" typeOf="bibo:AcademicArticle">
+  <span property="dc:creator">
+    <span property="foaf:name" content=""></span>
+  </span>
+  <span property="dc:creator">
+    <span property="foaf:name" content=""></span>
+  </span>
+  <span property="dc:issued">2006</span>
+  <span property="dc:title">Effect of argillaceous minerals on the growth of phosphate-mobilizing bacteria Bacillus subtilis</span>
+  <span property="bibo:volume">42</span>
+  <span property="bibo:issue">4</span>
+  <span property="bibo:pageStart">388</span>-<span property="bibo:pageEnd">391</span>
+  <span property="bibo:doi">10.1134/S0003683806040089</span>
 </div>
 ```
 
