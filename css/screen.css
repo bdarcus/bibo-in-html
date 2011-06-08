@@ -1,0 +1,7 @@
+
+body { margin:auto; position: center; width: 600px; font-family: sans;}
+h1 { font-size: 20px; }
+h2{ font-size: 14px; }
+td { padding: 1em; font-size: 12px; font-weight: bold; }
+tr.odd { background-color: #E0E0E0; }
+tr.even { background-color: #FFFF99; }
