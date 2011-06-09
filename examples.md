@@ -9,20 +9,20 @@ This page includes some examples of the BIBO RDF vocabulary embedded in HTML mar
 
 These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profile URI will change:
 
-```html
+{% highlight html %}
 <!DOCTYPE html>
 <html version="HTML+RDFa 1.1" lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Example Document</title>
   </head>
   <body profile="http://example.org/profile/bibo/">
-```
+{% endhighlight %}
 
 # Examples
 
 ## Scholarly Article
 
-```html
+{% highlight html %}
 <div class="reference" about="http://dx.doi.org/10.1134/S0003683806040089" typeOf="AcademicArticle">
   <span property="creator">
     <span property="name">I.K. Kurdish</span>
@@ -38,37 +38,37 @@ These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profi
   <span property="pageStart">388</span>-<span property="pageEnd">391</span>
   <span property="doi">10.1134/S0003683806040089</span>
 </div>
-```
+{% endhighlight %}
 
 ## Book
 
-```html
+{% highlight html %}
 <div class="reference" about="http://example.org/2" typeOf="Book">
   <span property="title"></span>
 </div>
-```
+{% endhighlight %}
 
 ## Chapter
 
-```html
+{% highlight html %}
 <div class="reference" about="http://example.org/3" typeOf="BookSection">
   <span property="title"></span>
 </div>
-```
+{% endhighlight %}
 
 ## Newspaper Article
 
-```html
+{% highlight html %}
 <div class="reference" about="http://example.org/4" typeOf="Article">
   <span property="title"></span>
 </div>
-```
+{% endhighlight %}
 
 ## Legal Case
 
-```html
+{% highlight html %}
 <div class="reference" about="http://example.org/5" typeOf="bibo:LegalCaseDocument">
   <span property="dc:title"></span>
 </div>
-```
+{% endhighlight %}
 
