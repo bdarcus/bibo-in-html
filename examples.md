@@ -1,4 +1,5 @@
 ---
+layout: examples
 title: BIBO RDFa Examples
 ---
 # Introduction
