@@ -1,5 +1,5 @@
-
-body { margin:auto; position: center; width: 670px; font-family: sans; text-align: center; }
+body { margin:auto; position: center; width: 670px; font-family: sans; }
+body.examples { text-align: center; }
 h1 { font-size: 20px; margin:2em; }
 h2{ font-size: 14px; }
 
