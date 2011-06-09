@@ -1,3 +1,6 @@
+---
+title: BIBO RDFa Examples
+---
 # Introduction
 
 This page includes some examples of the BIBO RDF vocabulary embedded in HTML markup using RDFa 1.1.
