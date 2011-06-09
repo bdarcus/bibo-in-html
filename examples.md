@@ -1,17 +1,17 @@
+---
+title: BIBO RDFa Examples
+---
 # Introduction
 
 This page includes some examples of the BIBO RDF vocabulary embedded in HTML markup using RDFa 1.1.
 
 # Profile Attribute
 
-These examples use RDFa 1.1 profile prefix mapping. Note that the profile URI will change:
+These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profile URI will change:
 
 ```html
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN"
-    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-      version="XHTML+RDFa 1.1">
+<!DOCTYPE html>
+<html version="HTML+RDFa 1.1" lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Example Document</title>
   </head>
