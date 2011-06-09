@@ -24,7 +24,7 @@ These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profi
 ## Scholarly Article
 
 {% highlight html %}
-<div class="reference" about="http://dx.doi.org/10.1134/S0003683806040089" typeOf="AcademicArticle">
+<div class="reference" about="http://dx.doi.org/10.1134/S0003683806040089" typeof="AcademicArticle">
   <span property="creator">
     <span property="name">I.K. Kurdish</span>
   </span> and 
@@ -44,7 +44,7 @@ These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profi
 ## Book
 
 {% highlight html %}
-<div class="reference" about="http://example.org/2" typeOf="Book">
+<div class="reference" about="http://example.org/2" typeof="Book">
   <span property="title"></span>
 </div>
 {% endhighlight %}
@@ -52,7 +52,7 @@ These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profi
 ## Chapter
 
 {% highlight html %}
-<div class="reference" about="http://example.org/3" typeOf="BookSection">
+<div class="reference" about="http://example.org/3" typeof="BookSection">
   <span property="title"></span>
 </div>
 {% endhighlight %}
@@ -60,7 +60,7 @@ These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profi
 ## Newspaper Article
 
 {% highlight html %}
-<div class="reference" about="http://example.org/4" typeOf="Article">
+<div class="reference" about="http://example.org/4" typeof="Article">
   <span property="title"></span>
 </div>
 {% endhighlight %}
@@ -68,7 +68,7 @@ These examples use RDFa 1.1 profile prefix mapping in HTML5. Note that the profi
 ## Legal Case
 
 {% highlight html %}
-<div class="reference" about="http://example.org/5" typeOf="bibo:LegalCaseDocument">
+<div class="reference" about="http://example.org/5" typeof="bibo:LegalCaseDocument">
   <span property="dc:title"></span>
 </div>
 {% endhighlight %}
